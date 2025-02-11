@@ -31,3 +31,4 @@
 /home/lenahri/Documents/Projetos/Filmes/FilmesApiAsp/obj/Debug/net8.0/FilmesApiAsp.pdb
 /home/lenahri/Documents/Projetos/Filmes/FilmesApiAsp/obj/Debug/net8.0/FilmesApiAsp.genruntimeconfig.cache
 /home/lenahri/Documents/Projetos/Filmes/FilmesApiAsp/obj/Debug/net8.0/ref/FilmesApiAsp.dll
+/home/lenahri/Documents/Projetos/Filmes/FilmesApiAsp/obj/Debug/net8.0/FilmesApiAsp.sourcelink.json
