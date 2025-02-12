@@ -30,14 +30,23 @@ namespace FilmesApiAsp.Controllers
         // {
         //     return View("Error!");
         // }
-        
+        private static int id = 0;
         private static List<Filme> Filmes = new List<Filme>();
 
         [HttpPost]
         public void adicionarFilme([FromBody] Filme filme){
+            filme.id=id++;
             Filmes.Add(filme);
-            Console.WriteLine(filme.Titulo);
-            Console.WriteLine(filme.Genero);
+        }
+
+        [HttpGet]
+        public IEnumerable<Filme> buscarTodosFilmes(){
+            return Filmes;
+        }
+
+        [HttpGet("{id}")]
+        public Filme? buscarFilmePorId(int id){
+            return Filmes.FirstOrDefault(filme => filme.id == id);
         }
     }
 }

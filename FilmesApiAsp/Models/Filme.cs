@@ -9,8 +9,7 @@ namespace FilmesApiAsp.Models
     public class Filme
     {
         [Required]
-        [Key]
-        public long id { get; set; }
+        public int id { get; set; }
         [Required(ErrorMessage = "O campo título é obrigatório")]
         public String Titulo { get; set; }
 
